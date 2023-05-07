@@ -1,0 +1,23 @@
+.card{
+    --rx: 0;
+    --ry: 0;
+    --duration: 200ms;
+    transition: var(--duration) ease-out;
+    transform: perspective(500px) rotateX(var(--rx)) rotateY(var(--ry));
+    transform-style: preserve-3d;
+  }
+  
+  #card {
+    width: 88.9mm;
+    height: 50.8mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
